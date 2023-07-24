@@ -48,3 +48,31 @@ print(list(sums))  # Выводит: [7, 9, 11, 13, 15]
 Один или более итерируемых объектов, к которым применяется функция.
 """
 
+
+
+def print_best():
+    best = 0
+    def print_best():
+        nonlocal best
+        best += 10 # без nonlocal нельзя изменить best
+        print(best) # 10
+    print_best()
+
+print_best()
+
+def make(N):
+    def action(X):
+        return X**N
+    return action
+f = make(2) # передаем аргумент в N
+print(f(3)) # 9
+
+def tester (start):
+    def nested(label):
+        print(label, state [0]) # Использует в своих интересах изменение
+        # на месте изменяемого объекта
+        state[0] += 1 # Добавочный синтаксис, глубинная магия?
+    state = [start]
+    return nested
+
+print( tester(10))

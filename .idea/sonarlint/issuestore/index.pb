@@ -3,8 +3,6 @@
 postresql.py,3\4\34847602b4f60e29893556930cc5a5cc8917878f
 <
 exeptions.py,3\9\39a4ff94195e4a1e71b282220db456622c849f84
-<
-functions.py,b\9\b925b14d25866ccaec5e5c1d9b5529ebbcb61ba6
 :
 
 classes.py,e\3\e3fbb579f7470480bc355ebf660c9cac6dfe55b3
