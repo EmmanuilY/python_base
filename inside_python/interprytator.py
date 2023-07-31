@@ -5,3 +5,6 @@
 
 
 """
+
+def poo():
+    pass
